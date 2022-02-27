@@ -1,0 +1,27 @@
+.boxMain {
+  display: inline-block;
+  position: relative;
+}
+
+.boxText {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.boxRemoveBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 0.3em;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}

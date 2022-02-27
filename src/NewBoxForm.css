@@ -1,0 +1,42 @@
+.newBoxFormMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+form {
+  width: 30%;
+  background-color: rgb(255, 231, 200);
+  margin: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3a3a3a;
+  letter-spacing: 5px;
+  background-color: rgb(255, 231, 200);
+  margin: 8px;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px solid rgb(27, 27, 27);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: rgb(29, 29, 29);
+  margin: 10px 10px;
+  padding: 8px 25px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #f6f6f0a4;
+  letter-spacing: 2px;
+}
